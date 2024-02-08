@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank you</title>
+    <link rel="stylesheet" href="./style_thank.css">
+</head>
+<body>
+    <div class="main">
+        <div class="main-img">
+            <img src="./images/icon-success.svg" alt="success">
+        </div>
+        <div class="text-div">
+            <p>Thanks for subscribing!</p>
+            <p>A confirmation email has been sent to <span id="inside-text"></span>. Please open it and click the button inside to confirm your subscription.</p>
+            <button onclick="home()"><span>Dismiss message</span></button>
+        </div>
+    </div>
+    <script>let home = () =>{window.location.href = "./index.html"};</script>
+</body>
+</html>
